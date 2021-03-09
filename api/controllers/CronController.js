@@ -21,8 +21,8 @@ CronController = {
         let hit_home = await axios.get('http://www.lechateauliving.com');
         let hit_brands = await axios.get('http://www.lechateauliving.com/brands/');
         let hit_project = await axios.get('http://www.lechateauliving.com/project/');
-        let hit_blog = await axios.get('http://www.lechateauliving.com/blog/news/');
-        let hit_download = await axios.get('http://www.lechateauliving.com/project/');
+        let hit_blog = await axios.get('http://www.lechateauliving.com/blog/showroom-tour/');
+        let hit_download = await axios.get('http://www.lechateauliving.com/download/');
         let hit_sale = await axios.get('http://www.lechateauliving.com/sale/');
 
         if (hit_home) {
